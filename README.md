@@ -3,9 +3,11 @@
 <p>A web-based front end for pytube</p>
 </div>
 
-![img](Screenshots/1.png)
-
 ---
+
+<p align="center">
+<img src="Screenshots/1.png" width="90%">
+</p>
 
 ## Features
 
