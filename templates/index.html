@@ -26,20 +26,30 @@
         </style>
     </head>
     <body>
-        <nav class="navbar bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">pytube-web</a>
+                <a class="navbar-brand" href="#">pytube-webapp</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
         <div class="container">
             <div class="card mt-5 my-card">
                 <div class="card-body">
-                    Bitte Link zum Video eingeben:
+                    Please enter your video URL:
                 </div>
             </div>
             <form class="btn-toolbar my-buttons" action="" method="post" aria-label="Toolbar with button groups">
-                <input class="form-control mb-3" name="video_url" type="text" placeholder="URL eingeben" aria-label="default input example">
+                <input class="form-control mb-3" name="video_url" type="text" placeholder="Input URL here" aria-label="default input example">
                 <div class="btn-group me-2" role="group" aria-label="First group">
                     <input type="radio" class="btn-check" name="btnradio" id="btnradio1" value="video" autocomplete="off" checked>
                     <label class="btn btn-outline-secondary" for="btnradio1">Video (MP4)</label>
