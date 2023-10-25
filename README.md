@@ -1,5 +1,4 @@
 <div align="center">
-    <img src="branding/main-logo.png" width="192" height="192" style="display: block; margin: 0 auto"/>
     <h1>pytube-webapp</h1>
     <p>A web-based front end for pytube</p>
 </div>
