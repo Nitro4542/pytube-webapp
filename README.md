@@ -6,7 +6,7 @@
 ---
 
 <p align="center">
-<img src="Screenshots/1.png" width="90%">
+<img src="branding/screenshot.png">
 </p>
 
 ## Features
@@ -46,4 +46,4 @@ python main.py
 
 First, insert any URL from YouTube into the URL bar.  
   
-Next, select your wanted format and click "Download".
+Next, select your preferred format and click "Download"
