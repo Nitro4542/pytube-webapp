@@ -7,7 +7,7 @@
 ---
 
 <p align="center">
-<img src="branding/screenshot.png">
+    <img src="branding/screenshot.png">
 </p>
 
 ## Features
@@ -16,10 +16,10 @@
 
 ## Installation / Setup
 
-This is a Flask-based website, so you need to install [Flask](https://pypi.org/project/Flask/) using pip like this:
+First install all requirements from requirements.txt:
 
 ```bash
-pip install flask
+pip install -r requirements.txt
 ```
 
 After you have installed Flask, make sure to disable debug mode!  
@@ -39,9 +39,16 @@ if __name__ == "__main__":
 ```
 
 To start the website, run [main.py](main.py) like this:
+
 ```bash
 python main.py
 ```
+
+### Google Colab
+
+Copy [this file](pytube-webapp-colab.ipynb) to your Google Drive and follow the instructions.
+
+Set the instance type to CPU for the best performance.
 
 ## How to use it
 
