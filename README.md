@@ -39,6 +39,7 @@ if __name__ == "__main__":
 ```
 
 To start the website, run [main.py](main.py) like this:
+
 ```bash
 python main.py
 ```
